@@ -22,11 +22,11 @@ Or install it yourself as:
 
 ## Usage
 
-    @ruboty free image pigeon
+    @ruboty free image java sparrow
 
 ## Support
 
-- [x] flickr api
+- [x] flickr api([CC BY](http://creativecommons.org/licenses/by/2.0/), [CC BY-SA](http://creativecommons.org/licenses/by-sa/2.0/))
 - [ ] media wiki [Allimages](http://www.mediawiki.org/wiki/API:Allimages), [Opensearch](http://www.mediawiki.org/wiki/API:Opensearch) API
 - [ ] and more...
 

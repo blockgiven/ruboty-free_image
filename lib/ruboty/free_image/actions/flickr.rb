@@ -9,8 +9,10 @@ module Ruboty
           FlickRaw.shared_secret = ENV['FLICKR_API_SECRET']
 
           count = message[:count] || 10
+          # CC BY, CC BY-SA
+          license = "4,5"
 
-          photos = flickr.photos.search(per_page: count, text: message[:keyword]).map do |photo|
+          photos = flickr.photos.search(license: license, per_page: count, text: message[:keyword]).map do |photo|
             {
               image_url: FlickRaw.url_n(photo),
               title: photo.title,
